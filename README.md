@@ -33,26 +33,34 @@ A Virtual Private Network (VPN) is a service that creaties a secure, encrypted c
     <li>Before setting up, we can navigate to <a href ="https://whatismyipaddress.com/">What Is My IP Address</a> and take note of your IPv4 Address on your virtual machine. This gives us a starting reference for where our machine is located and should be based somewhere close to the region you selected upon creation. Notice we are starting in Arizona!</li>
     
   <p align="center">
-        <img src="" height="80%" width="80%"/>
+        <img src="https://github.com/joshuafinchCC/vpn/assets/155266044/a240ee92-7ee3-447d-b326-ed7c16e49f18" height="80%" width="80%"/>
   </p>
     
-   <li> Next we will go to <a href ="https://whatismyipaddress.com/">What Is My IP Address</a> and install Proton VPN on the virtual machine. Install and register a free account, afterwards we can select "Quick" connect to use whatever fastest VPN tunnel is available. In this case its transfering us to</li>
-   <li></li>
+   <li> Next we will go to <a href ="https://protonvpn.com/download">Proton VPN</a> and install Proton VPN on the virtual machine. Install and register a free account, afterwards we can select "Quick Connect" to use whatever fastest VPN tunnel is available. In this case its transfering us to Japan</li>
+   
+   <p align="center">
+        <img src="https://github.com/joshuafinchCC/vpn/assets/155266044/63c0694b-3ae6-4935-9ed8-76ba6839a4b6" height="80%" width="80%"/>
+  </p>
+   <li>You'll notice after connecting to the VPN, if you browse the web, your languages may appear a little...different</li>
   </ul>
+
+  <p align="center">
+        <img src="https://github.com/joshuafinchCC/vpn/assets/155266044/93da2ec6-6f6e-4c1b-b041-bf53e5ff2cf2" height="80%" width="80%"/>
+  </p>
 </p>
 
 <br />
 
-<h3>Signing up and configuring Proton VPN</h3>
+<h3>Verifying our VPN is working</h3>
 
 <p>
   <ul>
-    <li>Sign up for a free version of <a href ="https://account.protonvpn.com/signup?plan=free&language=en">Proton VPN</a></li>
-    <li>Head back to your VM, download the Proton VPN client</li>
-    <li>After installing, log in to Proton VPN and choose a VPN server to connect to outside of your VM's region</li>
-    <li>After connecting to a VPN Server, go to What Is My IP Address and notice the IPv4 Address is different</li>
-    <li>Attempt to browse websites such as Google or Amazon and notice the differences related to  your VPN Server (such as seeing Hangul is connected to a VPN server in South Korea)</li>
+    <li>Finally, if we navigate back to <a href ="https://whatismyipaddress.com/">What Is My IP Address</a> you'll see that our IP started in the United States, and is now in Vietnam!</li>
   </ul>
 </p>
+
+ <p align="center">
+        <img src="https://github.com/joshuafinchCC/vpn/assets/155266044/ca1061a7-b7d7-4038-a751-51064e3bd998" height="80%" width="80%"/>
+  </p>
 
 <br />
