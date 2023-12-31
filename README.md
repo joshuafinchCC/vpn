@@ -1,19 +1,18 @@
 <p align="center">
-<img src="https://github.com/ColtonTrauCC/vpn/assets/147654000/14cf23c5-20c7-441e-8641-c24dc06d06ce" height = 20% width = 20%/>
+<img src="https://github.com/joshuafinchCC/vpn/assets/155266044/5e274b98-bb25-4323-97cd-ae909e59b270" height = 60% width = 80%/>
 </p>
 
 <h1 align = "center">Understanding and Installing Virtual Private Networks</h1>
-A Virtual Private Network (VPN) is a powerful security tool that connects two comptuers (networks) in a insecure network that is the Internet, allowing data to be encapsulated and encrypted between each other. This tutorial shows how to install a VPN through an Azure Virtual Machine environment (tutorial of how to set up VMs can be found <a href ="https://github.com/joshuafinchCC/VM-VN-RDC">here</a>.
+A Virtual Private Network (VPN) is a service that creaties a secure, encrypted connection between your device and the internet, giving you more privacy and security. It acts as a tunnel that encrypts the data you send and receive, making it difficult for foreign parties to monitor or intercept your online activities. This tutorial shows how to install a free VPN on an Azure Virtual Machine environment (tutorial for Virtual machine setup <a href ="https://github.com/joshuafinchCC/VM-VN-RDC">here</a>)
 
 <br />
 
 <h2>Environments and Technologies Used</h2>
 <ul>
-  <li>Microsoft Azure (Virtual Machines/Compute)</li>
+  <li>Microsoft Azure (Virtual Machines)</li>
   <li>Remote Desktop</li>
   <li>Internet Browser of your choice</li>
   <li>Proton VPN</li>
-  <li>Notepad to type down IP Addresses</li>
 </ul>
 
 <br />
@@ -31,9 +30,14 @@ A Virtual Private Network (VPN) is a powerful security tool that connects two co
 
 <p>
   <ul>
-    <li>Before setting up, browse to <a href ="https://whatismyipaddress.com/">What Is My IP Address</a> and take note of your IPv4 Address</li>
-    <li>Now go to the Microsoft Azure Portal and create a Resource Group and a Virtual Machine. When creating your VM, make sure the <b>Region</b> is set in a region outside of your country</li>
-    <li>Log in to your VM through Remote Desktop and go to What Is My IP Address. The IPv4 Address in the VM should be <b>different</b> than the one on your main computer.</li>
+    <li>Before setting up, we can navigate to <a href ="https://whatismyipaddress.com/">What Is My IP Address</a> and take note of your IPv4 Address on your virtual machine. This gives us a starting reference for where our machine is located and should be based somewhere close to the region you selected upon creation. Notice we are starting in Arizona!</li>
+    
+  <p align="center">
+        <img src="" height="80%" width="80%"/>
+  </p>
+    
+   <li> Next we will go to <a href ="https://whatismyipaddress.com/">What Is My IP Address</a> and install Proton VPN on the virtual machine. Install and register a free account, afterwards we can select "Quick" connect to use whatever fastest VPN tunnel is available. In this case its transfering us to</li>
+   <li></li>
   </ul>
 </p>
 
